@@ -1,0 +1,35 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+	background-image: url(../images/sean3.jpg);
+	background-position: top;
+	background-size: cover;
+	opacity: 0.5;
+	text-align: center;
+	font-size: 250px;
+	color: white;
+}
+
+#ceo{
+	float: left;
+	width: 30%;
+	margin: 30px;
+}
+
+#ceo img{
+	width:400px;
+}
+
+#ceo p{
+	font-size: 30px;
+	text-align: left;
+}
+
+#shit {
+	margin-top: 100px;
+	float: left;
+	width: 50%;
+}
