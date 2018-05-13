@@ -1,35 +1,44 @@
 *{
-	margin: 0px;
-	padding: 0px;
+	box-sizing: border-box;
 }
 
-h1 {
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.banner {
 	background-image: url(../images/sean3.jpg);
 	background-position: top;
 	background-size: cover;
 	opacity: 0.5;
-	text-align: center;
-	font-size: 250px;
+	height: 100px;
+	text-align: center;	
 	color: white;
 }
 
-#ceo{
-	float: left;
-	width: 30%;
-	margin: 30px;
+
+@media screen and (min-width: 981px){
+	.headshot, .intro{
+		width:50%;
+		float: left;
+		text-align: center;
+		background-color: grey;
+		padding: 30px;
+	}
 }
 
-#ceo img{
-	width:400px;
+@media screen and (max-width:600px){
+	.headshot, .intro{
+		width: 100%;
+		float: left;
+		text-align: center;
+		background-color: grey;
+		padding: 30px;
+	}
 }
 
-#ceo p{
-	font-size: 30px;
-	text-align: left;
-}
-
-#shit {
-	margin-top: 100px;
-	float: left;
-	width: 50%;
+img {
+	height: auto;
+	max-width: 100%;
 }
